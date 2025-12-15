@@ -127,3 +127,13 @@ footer a {
 .button:hover {
     background-color: #0056b3; 
 }
+/* Product Image Styling */
+section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 10px; /* Increased rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Adds a soft shadow */
+    object-fit: cover; /* Ensures images fill the space nicely without stretching */
+}
