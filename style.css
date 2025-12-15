@@ -27,4 +27,29 @@ a {
 
 a:hover {
     text-decoration: underline;
+}/* New CSS for Layout */
+
+/* Creates a container for the featured content */
+#featured-content-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows products to wrap to the next line on smaller screens */
+    gap: 20px; /* Space between the products */
+    padding: 0;
+}
+
+/* Styles each individual product section */
+section {
+    flex: 1 1 45%; /* Allows each product to take up roughly 45% of the space, fitting two per row */
+    max-width: 45%; /* Ensures they don't get too wide on large screens */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    margin-bottom: 20px; /* Space below the product */
+}
+
+/* Styles the image to fit neatly */
+section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px; /* Adds space below the image */
+    border-radius: 5px;
 }
