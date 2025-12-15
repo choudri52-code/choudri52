@@ -7,7 +7,7 @@ body {
 }
 
 h1, h2 {
-    color: #0056b3; /* A professional blue color */
+    color: #0056b3;
     border-bottom: 2px solid #ccc;
     padding-bottom: 10px;
 }
@@ -20,7 +20,7 @@ section {
 }
 
 a {
-    color: #28a745; /* A success green color for "Buy Now" links */
+    color: #28a745;
     text-decoration: none;
     font-weight: bold;
 }
