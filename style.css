@@ -52,4 +52,60 @@ section img {
     height: auto;
     margin-bottom: 15px; /* Adds space below the image */
     border-radius: 5px;
+/* Fixes Two-Column Product Layout */
+#featured-content-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 0;
+}
+
+section {
+    flex: 1 1 45%; 
+    max-width: 45%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+}
+
+section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px; 
+    border-radius: 5px;
+/* Navigation Bar Styling */
+nav {
+    background-color: #333; /* Dark background */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none; /* Removes the bullet points */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline; /* Makes links appear side-by-side */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* White text for contrast */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold;
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    font-size: 0.9em;
+    color: #666;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
 }
