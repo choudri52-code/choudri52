@@ -109,3 +109,21 @@ footer a {
     color: #007bff;
     text-decoration: none;
 }
+/* Button Styling for "Buy Now" links */
+.button {
+    display: inline-block; /* Allows padding and width properties */
+    background-color: #007bff; /* Bright blue color */
+    color: white; /* White text */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none; /* Removes the underline */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold;
+    margin-top: 10px; /* Space above the button */
+    transition: background-color 0.3s; /* Smooth color change on hover */
+}
+
+/* Change color when the user hovers over the button */
+.button:hover {
+    background-color: #0056b3; 
+}
