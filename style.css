@@ -137,3 +137,11 @@ section img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Adds a soft shadow */
     object-fit: cover; /* Ensures images fill the space nicely without stretching */
 }
+/* Styling for Product Images */
+section img {
+    max-width: 100%; /* Ensures image doesn't exceed the width of its container */
+    height: auto; /* Maintains the image's aspect ratio */
+    width: 300px; /* Sets a maximum fixed width for all product images */
+    border: 1px solid #ddd; /* Adds a light border for visual separation (optional) */
+    border-radius: 8px; /* Rounds the corners (optional) */
+}
