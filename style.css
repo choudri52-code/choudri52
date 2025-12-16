@@ -148,9 +148,4 @@ section img {
     border-radius: 8px;
 }
 }
-/* Specific fix for the E-book image */
-img[src="SANY0031.JPG"] {
-    width: 300px !important; 
-    height: auto !important; 
-    display: block !important;
-}
+
