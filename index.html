@@ -5,7 +5,50 @@
         <li><a href="mailto:contact@choudriscontent.com">Contact</a></li>
     </ul>
 </nav><h1 id="welcome">Welcome to Choudri's Content Marketplace</h1>
-/* --- CSS for the Contact Form Layout --- */
+7 </h1><h1 id="welcome">Welcome to Choudri's Content Marketplace</h1>
+
+<style>  /*- CSS for the Contact Form Layout --- */
+/* 1. Styles the main form container to stack everything vertically */
+.contact-form {
+    display: flex;
+    flex-direction: column; /* Stacks all form-groups */
+    gap: 15px; /* Adds space between the Name, Email, Subject groups */
+    max-width: 450px; /* Keeps the form from getting too wide */
+    margin-top: 20px;
+}
+
+/* 2. Styles the individual container for each label and input */
+.form-group {
+    display: flex;
+    flex-direction: column; /* Places the label (Your Name:) above the input box */
+}<h1 id="welcome">Welcome to Choudri's Content Marketplace</h1>
+
+<style> 
+  /* This tag tells the browser: "The next lines are design rules" */
+
+  .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 450px;
+  }
+
+  .form-group {
+      display: flex;
+      flex-direction: column;
+  }
+
+  /* ... the rest of your CSS ... */
+
+</style>
+
+/* Add the rest of the styles here, like the input[type="text"] styling */
+
+</style>  ```
+
+Adding the `<style>` tags tells the browser, "The content inside these tags is CSS, not regular text," and it will then correctly apply the alignment rules to your form.
+
+Once you add those two tags, all the visual issues with the form alignment should be resolved!/* --- CSS for the Contact Form Layout --- */
 
 /* 1. Styles the main form container to stack everything vertically */
 .contact-form {
