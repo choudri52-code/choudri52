@@ -296,4 +296,19 @@ nav ul li)
         
     </form>
 </section>
+/* This turns the Email Link into a Black Button */
+.buy-button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
 
+.buy-button:hover {
+    background-color: #444; /* Turns dark grey when you touch it */
+}
