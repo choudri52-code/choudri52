@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - Choudri's Marketplace</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; line-height: 1.6; }
+        nav a { margin-right: 15px; color: blue; text-decoration: none; font-weight: bold; }
+        .contact-box { max-width: 500px; border: 1px solid #ccc; padding: 20px; border-radius: 10px; background: #f9f9f9; }
+        input, textarea { width: 100%; margin-bottom: 10px; padding: 8px; }
+        button { background: black; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>Contact Us</h1>
+    <div class="contact-box">
+        <p>Have a question about our AI art? Send us a message!</p>
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Your Name">
+            <label>Email:</label>
+            <input type="email" placeholder="Your Email">
+            <label>Message:</label>
+            <textarea placeholder="How can we help?"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+</body>
+</html>
