@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Products - Choudri's Marketplace</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        nav a { margin-right: 15px; color: blue; text-decoration: none; }
+        .product-grid { display: flex; gap: 20px; margin-top: 20px; }
+        .item { border: 1px solid #ddd; padding: 10px; border-radius: 8px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>Our AI Art Products</h1>
+    <div class="product-grid">
+        <div class="item">
+            <h3>Digital Dream Art</h3>
+            <p>Price: $15.00</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+
+</body>
+</html>
