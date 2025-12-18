@@ -1,50 +1,55 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <head>
-    <title>Our Products</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <meta charset="UTF-8">
     <title>Our Products - Choudri's Marketplace</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         body { font-family: Arial, sans-serif; padding: 20px; background-color: #f9f9f9; }
-nav a { margin-right: 15px; color: blue; text-decoration: none; font-weight: bold; }
+        nav a { margin-right: 15px; color: blue; text-decoration: none; font-weight: bold; }
 
-/* This makes the products sit side-by-side */
-.product-grid { 
-    display: flex; 
-    flex-wrap: wrap; 
-    gap: 20px; 
-    margin-top: 20px; 
-}
+        /* This makes the products sit side-by-side */
+        .product-grid { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 20px; 
+            margin-top: 20px; 
+        }
 
-/* This makes each product "card" look clean */
-.item { 
-    border: 1px solid #ddd; 
-    padding: 15px; 
-    border-radius: 12px; 
-    background: white;
-    width: 250px; /* Fixed width for the card */
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
+        /* This makes each product "card" look clean */
+        .item { 
+            border: 1px solid #ddd; 
+            padding: 15px; 
+            border-radius: 12px; 
+            background: white;
+            width: 250px; 
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
 
-/* This is the most important part - it fixes the image size! */
-.item img { 
-    width: 100%; 
-    height: 200px; 
-    object-fit: cover; /* This crops the photo perfectly to fit the box */
-    border-radius: 8px;
-}
+        .item img { 
+            width: 100%; 
+            height: 200px; 
+            object-fit: cover; 
+            border-radius: 8px;
+        }
 
-button { 
-    background-color: #000; 
-    color: #fff; 
-    border: none; 
-    padding: 10px 20px; 
-    border-radius: 5px; 
-    cursor: pointer; 
-}
+        /* This makes your email links look like professional black buttons */
+        .buy-button { 
+            display: block;
+            background-color: #000; 
+            color: #fff; 
+            text-decoration: none;
+            padding: 10px 20px; 
+            border-radius: 5px; 
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .buy-button:hover {
+            background-color: #333;
+        }
     </style>
 </head>
 <body>
@@ -56,29 +61,20 @@ button {
     </nav>
 
     <h1>Our AI Art Products</h1>
-    <div class="product-grid">
-    <div class="item">
-        <img src="SANY0026.JPG" alt="Digital Dream Art" style="width:100%; border-radius:5px; margin-bottom:10px;">
-        <h3>Digital Dream Art</h3>
-        <p>Price: $15.00</p>
-        <a href="https://wa.me/923330980303?text=I%20want%20to%20buy%20this%20art" class="whatsapp-btn">
-   Buy Now
-</a>
-    </div>
 
-    <div class="item">
-        <img src="fotor_1763917830889.jpg" alt="Landscape Art" style="width:100%; border-radius:5px; margin-bottom:10px;">
-        <h3>Digital Landscape</h3>
-        <p>Price: $20.00</p>
-        <a href="mailto:choudri52@gmail.com?subject=I want to buy Digital Dream Art" class="buy-button">Email to Buy</a>
-    </div>
-</div>
-</div>
     <div class="product-grid">
-        
+        <div class="item">
+            <img src="SANY0026.JPG" alt="Digital Dream Art">
             <h3>Digital Dream Art</h3>
             <p>Price: $15.00</p>
-           <a href="mailto:choudri52@gmail.com?subject=I want to buy Digital Dream Art" class="buy-button">Email to Buy</a> 
+            <a href="mailto:choudri52@gmail.com?subject=I want to buy Digital Dream Art" class="buy-button">Email to Buy</a>
+        </div>
+
+        <div class="item">
+            <img src="fotor_1763917830889.jpg" alt="Landscape Art">
+            <h3>Digital Landscape</h3>
+            <p>Price: $20.00</p>
+            <a href="mailto:choudri52@gmail.com?subject=I want to buy Digital Landscape" class="buy-button">Email to Buy</a>
         </div>
     </div>
 
