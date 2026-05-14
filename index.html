@@ -1,110 +1,81 @@
-<header style="background: #333; color: white; padding: 20px; text-align: center;">
-    <h1>Classic Canvas Studio</h1>
-    <nav>
-        <a href="index.html" style="color: white; margin: 0 15px;">Home</a>
-        <a href="products.html" style="color: white; margin: 0 15px;">Products</a>
-        <a href="contact.html" style="color: white; margin: 0 15px;">Contact</a>
-    </nav>
-</header>
 <!DOCTYPE html>
 <html lang="en">
-<head><!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-09NZZGM5BD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-09NZZGM5BD');
-</script>
+<head>
     <meta charset="UTF-8">
-    <title>Classic Canvas Studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Canvas Studio | Original Photography</title>
     <style>
-        /* Global Styles */
-        body { font-family: sans-serif; line-height: 1.6; padding: 20px; max-width: 1000px; margin: auto; }
-        nav ul { list-style: none; padding: 0; display: flex; gap: 20px; }
-        
-        /* Product Grid */
-        #featured-content-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
-    margin-bottom: 50px;
-}
-
-section, .product-grid, div {
-    gap: 40px !important;
-    margin-bottom: 40px !important;
-}
-
-img {
-    margin: 15px !important;
-}
-              
-            margin-bottom: 50px;
-           padding:  50px0:
-        section { border: 1px solid #ddd; padding: 15px; border-radius: 8px; }
-        img { max-width: 100%; height: auto; border-radius: 4px; }
-        .button { display: inline-block; background: #007bff; color: white; padding: 10px; text-decoration: none; border-radius: 4px; margin-top: 10px; }
-
-        /* Contact Form Layout (Flexbox) */
-        .contact-form { display: flex; flex-direction: column; gap: 15px; max-width: 500px; }
-        .form-group { display: flex; flex-direction: column; gap: 5px; }
-        input, textarea { padding: 8px; border: 1px solid #ccc; border-radius: 4px; width: 100%; box-sizing: border-box; }
-        .send-button { background: #28a745; color: white; border: none; padding: 12px; cursor: pointer; border-radius: 4px; }
+        body { margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f9f9f9; }
+        header { background: #222; color: white; padding: 40px 20px; text-align: center; }
+        header h1 { margin: 0; font-size: 2.5em; letter-spacing: 2px; }
+        header p { margin: 5px 0 20px; font-style: italic; color: #ccc; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .gallery { max-width: 1200px; margin: 40px auto; display: flex; flex-wrap: wrap; justify-content: center; gap: 25px; padding: 20px; }
+        .card { background: white; width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); overflow: hidden; text-align: center; padding-bottom: 20px; }
+        .card img { width: 100%; height: 200px; object-fit: cover; }
+        .card h3 { margin: 15px 0 5px; color: #333; }
+        .card p { font-size: 0.9em; color: #666; padding: 0 10px; }
+        .price { font-weight: bold; color: #222; margin: 10px 0; display: block; }
+        .btn { background: #25D366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block; }
+        footer { background: #222; color: white; padding: 40px 20px; text-align: center; margin-top: 50px; }
+        footer a { color: #ff4b4b; text-decoration: none; font-weight: bold; }
     </style>
 </head>
 <body>
 
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-             <li><a href="products.html">Products</a></li>
-  <li><a href="contact.html">Contact</a></li>
-        <div id="featured-content-container">
-    <!-- Product 1 -->
-    <div class="product-card">
-        <img src="SANY0026.JPG" alt="Heritage Shot">
-        <h3>Badshahi Mosque Heritage</h3>
-        <p>High-resolution architectural shot of the historic landmark.</p>
-      
-        <p><strong>Price: $25.00</strong></p>
-        <a href="https://wa.me/923XXXXXXXXX" class="button">Order on WhatsApp</a>
+    <header>
+        <h1>Classic Canvas Studio</h1>
+        <p>Original Architectural & Street Photography by Moazzam Choudri</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="gallery">
+        <!-- Photo 1 -->
+        <div class="card">
+            <img src="SANY0026.JPG" alt="Badshahi Mosque">
+            <h3>Badshahi Mosque</h3>
+            <p>High-resolution architectural heritage shot.</p>
+            <span class="price">$25.00</span>
+            <a href="https://wa.me/923XXXXXXXXX" class="btn">Order on WhatsApp</a>
+        </div>
+
+        <!-- Photo 2 -->
+        <div class="card">
+            <img src="SANY0031.JPG" alt="Street Life">
+            <h3>Walled City Street</h3>
+            <p>Authentic street photography of old Lahore.</p>
+            <span class="price">$20.00</span>
+            <a href="https://wa.me/923XXXXXXXXX" class="btn">Order on WhatsApp</a>
+        </div>
+
+        <!-- Photo 3 -->
+        <div class="card">
+            <img src="SANY0032.JPG" alt="Architecture">
+            <h3>Architectural Detail</h3>
+            <p>Premium shot of historic building details.</p>
+            <span class="price">$25.00</span>
+            <a href="https://wa.me/923XXXXXXXXX" class="btn">Order on WhatsApp</a>
+        </div>
+
+        <!-- Photo 4 -->
+        <div class="card">
+            <img src="SANY0047.JPG" alt="Urban Soul">
+            <h3>Urban Soul Lahore</h3>
+            <p>Capturing the vibrant spirit of the city.</p>
+            <span class="price">$20.00</span>
+            <a href="https://wa.me/923XXXXXXXXX" class="btn">Order on WhatsApp</a>
+        </div>
     </div>
 
-    <!-- Product 2 -->
-    <div class="product-card">
-        <img src="SANY0031.JPG" alt="Lahore Street">
-        <h3>Walled City Street Life</h3>
-        <p>Authentic street photography capturing old Lahore.</p>
-        <p><strong>Price: $20.00</strong></p>
-        <a href="https://wa.me/923XXXXXXXXX" class="button">Order on WhatsApp</a>
-    </div>
-</div>
-<!-- Product 3 -->
-    <div class="product-card">
-        <img src="SANY0032.JPG" alt="Heritage Landmark">
-        <h3>Lahore Architectural Detail</h3>
-        <p>Premium architectural photography showcasing intricate heritage details.</p>
-        <p><strong>Price: $25.00</strong></p>
-        <a href="https://wa.me/923XXXXXXXXX" class="button">Order on WhatsApp</a>
-    </div>
+    <footer>
+        <p>&copy; 2026 Classic Canvas Studio | Moazzam Masood Choudri</p>
+        <p>AI Content Creator & Prompt Engineer | SEO Writer</p>
+        <p>Watch my workflow on <a href="https://www.youtube.com/@ClassicCanvasStudio">YouTube</a></p>
+    </footer>
 
-    <!-- Product 4 -->
-    <div class="product-card">
-        <img src="SANY0047.JPG" alt="Street Photography">
-        <h3>Urban Soul of Lahore</h3>
-        <p>Capturing the vibrant and timeless spirit of the walled city streets.</p>
-        <p><strong>Price: $20.00</strong></p>
-        <a href="https://wa.me/923XXXXXXXXX" class="button">Order on WhatsApp</a>
-    </div>
-     </div> <!-- Boxes band karne ke liye -->
-</main> <!-- Main area band karne ke liye -->
-
-<footer style="display: block; width: 100%; clear: both; float: none; background: #222; color: white; padding: 40px 10px; text-align: center; margin-top: 60px;">
-    <p>&copy; 2026 Classic Canvas Studio | Moazzam Masood Choudri</p>
-    <p>AI Content Creator & Prompt Engineer | SEO Writer</p>
-    <div style="margin-top: 15px;">
-        <a href="https://www.youtube.com/@ClassicCanvasStudio" style="color: #d9534f; text-decoration: none;">YouTube</a>
-    </div>
-</footer>
+</body>
+</html>
