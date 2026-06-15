@@ -3,89 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Products | Classic Canvas Studio</title>
+    <title>Products - Classic Canvas Studio</title>
     <style>
-        body { margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f4f4; }
-        header { background: #222; color: white; padding: 40px 20px; text-align: center; }
-        header h1 { margin: 0; font-size: 2.5em; letter-spacing: 2px; }
-        header p { margin: 5px 0 20px; font-style: italic; color: #ccc; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-        
-        .container { max-width: 1200px; margin: 40px auto; padding: 0 20px; text-align: center; }
-        .page-title { color: #333; margin-bottom: 30px; font-size: 2em; }
-        
-        .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
-        .card { background: white; width: 300px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); padding-bottom: 15px; text-align: center; }
-        .card img { width: 100%; height: 200px; object-fit: cover; display: block; }
-        .card h3 { margin: 15px 0 5px; color: #333; }
-        .card p { font-size: 0.9em; color: #666; padding: 0 10px; margin: 5px 0; }
-        .price { font-weight: bold; color: #222; margin: 10px 0; display: block; }
-        .btn { background: #25D366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; font-weight: bold; }
-        
-        footer { background: #222; color: white; padding: 40px 20px; text-align: center; margin-top: 40px; font-size: 0.9em; }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1200px;
+            margin-bottom: 40px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .price {
+            display: block;
+            font-size: 1.2em;
+            color: #333;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        .btn {
+            display: inline-block;
+            background: #25D366;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        footer {
+            background: #222;
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: auto;
+        }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Classic Canvas Studio</h1>
-        <p>Original Architectural & Interior Photography by Moazzam Choudri</p>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="products.html">Products</a>
-        </nav>
-    </header>
+<div class="container">
+    <div class="card">
+        <img src="Lounge-Space.jpg" alt="Lounge and Hall Space">
+        <h3>Lounge & Hall Space</h3>
+        <p>Beautiful low-light photography of corporate and residential halls.</p>
+        <span class="price">$20.00</span>
+        <a class="btn" href="https://wa.me/923330980303?text=Hi%20Moazzam,%20I%20am%20interested%20in%20ordering%20the%20Lounge%20Space.">Order on WhatsApp</a>
+    </div>
 
-    <div class="container">
-        <h2 class="page-title">Premium Commercial Photography Catalog</h2>
-        
-        <div class="gallery">
-        <div class="card">
-            <img src="SANY0026.JPG" alt="Elegant Interior">
-            <h3>Elegant Interior</h3>
-            <p>Professional high-resolution shot of premium lounge space.</p>
-            <span class="price">$25.00</span>
-            <a class="btn" href="https://wa.me/923330980303?text=Hi%20Moazzam,%20I%20am%20interested%20in%20ordering%20the%20Elegant%20Interior%20photo">Order on WhatsApp</a>
-        </div>
-
-        <div class="card">
-            <img src="SANY0031.JPG" alt="Staircase Architecture">
-            <h3>Staircase Architecture</h3>
-            <p>Stunning architectural details of modern marble stairs.</p>
-            <span class="price">$20.00</span>
-            <a class="btn" href="https://wa.me/923330980303?text=Hi%20Moazzam,%20I%20am%20interested%20in%20ordering%20the%20Staircase%20Architecture%20photo">Order on WhatsApp</a>
-        </div>
-
-        <div class="card">
-            <img src="SANY0032.JPG" alt="Architectural Detail">
-            <h3>Architectural Detail</h3>
-            <p>Premium view focusing on real estate design and structure.</p>
-            <span class="price">$25.00</span>
-            <a class="btn" href="https://wa.me/923330980303?text=Hi%20Moazzam,%20I%20am%20interested%20in%20ordering%20the%20Architectural%20Detail%20photo">Order on WhatsApp</a>
-        </div>
-
-        <div class="card">
-            <img src="SANY0047.JPG" alt="Lounge & Hall Space">
-            <div class="card">
-    <img src="Lounge-Space.JPG" alt="Lounge and Hall Space">
-    <h3>Lounge & Hall Space</h3>
-    <p>Beautiful low-light photography of corporate and residential halls.</p>
-    <span class="price">$20.00</span>
-    <a class="btn" href="https://wa.me/923330980303?text=Hi%20Moazzam,%20I%20am%20interested%20in%20ordering%20the%20Lounge%20Space.">Order on WhatsApp</a>
+    <div class="card">
+        <img src="Creative-Graphic-Bundle.png" alt="Vector and Illustration">
+        <h3>Illustration and Vectors</h3>
+        <p>Premium high-resolution view of beautiful architecture.</p>
+        <span class="price">$25.00</span>
+        <a class="btn" href="https://wa.me/923330980303?text=Hi%20Moazzam,%20I%20am%20interested%20in%20ordering%20the%20Vector%20Pack.">Order on WhatsApp</a>
+    </div>
 </div>
 
-<div class="card">
-    <img src="Moazzam-Vectors.JPG" alt="Vector and Illustration">
-    <h3>Illustration and Vectors</h3>
-    <p>Premium high-resolution view of beautiful architecture.</p>
-    <span class="price">$25.00</span>
-    <a class="btn" href="https://wa.me/923330980303?text=Hi%20Moazzam,%20I%20am%20interested%20in%20ordering%20the%20Vector%20Pack.">Order on WhatsApp</a>
-</div>
-
-    <footer>
-        <p>&copy; 2026 Classic Canvas Studio | Moazzam Masood Choudri</p>
-        <p>AI Content Creator & Prompt Engineer | SEO Writer</p>
-    </footer>
+<footer>
+    <p>&copy; 2026 Classic Canvas Studio | Moazzam Masood Choudri</p>
+</footer>
 
 </body>
 </html>
