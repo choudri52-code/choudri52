@@ -1,127 +1,279 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8F9ZX400P8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Classic Canvas Studio | Architectural & Interior Photography</title>
+  <meta name="description" content="Classic Canvas Studio — professional architectural and interior photography. Licensing, prints, and bespoke commissions." />
+  <link rel="canonical" href="https://choudri52-code.github.io/choudri52/" />
 
-  gtag('config', 'G-8F9ZX400P8');
-</script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Classic Canvas Studio | Home</title>
-    <style>
-        body { margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #ffffff; }
-        header { background: #222; color: white; padding: 20px; text-align: center; }
-        header h1 { margin: 0; font-size: 2.5em; letter-spacing: 1px; }
-        header p { margin: 5px 0 20px; font-style: italic; color: #ccc; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Classic Canvas Studio | Architectural & Interior Photography" />
+  <meta property="og:description" content="High-quality photography of heritage, architecture and interiors. Licensing and commissions available." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://choudri52-code.github.io/choudri52/" />
+  <meta property="og:image" content="1777806360940.jpg" />
 
-        .hero { max-width: 800px; margin: 60px auto; text-align: center; padding: 0 20px; }
-        .hero h2 { color: #333; font-size: 2.2em; margin-bottom: 20px; }
-        .hero p { color: #555; font-size: 1.1em; line-height: 1.6; }
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Classic Canvas Studio">
+  <meta name="twitter:description" content="Architectural & interior photography — licensing, prints and commissions.">
 
-        .btn-view { background-color: #25D366; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block; margin-top: 20px; }
-        .btn-view:hover { background-color: #1ebe57; }
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
 
-        footer { background: #222; color: white; padding: 20px; text-align: center; margin-top: 60px; }
-        footer p { margin: 5px 0; color: #ccc; font-size: 0.9em; }
+  <!-- Structured data: Organization & Website -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Classic Canvas Studio",
+    "url": "https://choudri52-code.github.io/choudri52/",
+    "logo": "https://choudri52-code.github.io/choudri52/favicon.svg"
+  }
+  </script>
 
-        /* Gallery styles */
-        .gallery { max-width: 1200px; margin: 40px auto; padding: 20px; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px; }
-        .gallery img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-    </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8F9ZX400P8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+    gtag('config', 'G-8F9ZX400P8');
+  </script>
 </head>
 <body>
-
-    <header>
-        <h1>Classic Canvas Studio</h1>
-        <p>Original Architectural & Interior Photography</p>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="products.html">Products</a>
-        </nav>
-    </header>
-
-    <div class="hero">
-        <h2>Welcome to Classic Canvas Studio</h2>
-        <p>Discover high-quality, professional visual assets capturing heritage, design, and structure.</p>
-        <a class="btn-view" href="products.html">Explore Portfolio</a>
+  <header class="site-header">
+    <div class="inner">
+      <a class="brand" href="index.html">Classic Canvas Studio</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
+  </header>
 
-    <section id="contact-section" style="padding: 60px 20px; background-color: #f9f9f9;">
-        <div style="max-width: 1100px; margin: 0 auto;">
-            <h2 style="text-align: center; color: #222; margin-bottom: 40px;">Contact Us</h2>
-            
-            <div style="display: flex; flex-wrap: wrap; gap: 40px;">
-                <div style="flex: 1; min-width: 300px;">
-                    <h3 style="color: #222; margin-bottom: 20px;">Get In Touch</h3>
-                    <p style="color: #666; line-height: 1.6; margin-bottom: 30px;">Have a project in mind or want to license original photography? Drop a message using the form or reach out direct.</p>
-                    
-                    <div style="margin-bottom: 20px;">
-                        <strong style="color: #222; display: block; margin-bottom: 5px;">Email:</strong>
-                        <a href="mailto:choudri52@gmail.com" style="color: #25D366; text-decoration: none; font-weight: bold;">choudri52@gmail.com</a>
-                    </div>
-                    
-                    <div style="margin-bottom: 20px;">
-                        <strong style="color: #222; display: block; margin-bottom: 5px;">Location:</strong>
-                        <span style="color: #555;">Lahore, Pakistan</span>
-                    </div>
-                </div>
-
-                <div style="flex: 1.5; min-width: 300px;">
-                    <h3 style="color: #222; margin-bottom: 20px;">Send a Message</h3>
-                    <form action="https://api.web3forms.com/submit" method="POST">
-                        <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY_HERE">
-                        
-                        <div style="margin-bottom: 15px;">
-                            <label style="display: block; margin-bottom: 5px; color: #333;">Name</label>
-                            <input type="text" name="name" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-                        </div>
-                        
-                        <div style="margin-bottom: 15px;">
-                            <label style="display: block; margin-bottom: 5px; color: #333;">Email</label>
-                            <input type="email" name="email" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-                        </div>
-                        
-                        <div style="margin-bottom: 15px;">
-                            <label style="display: block; margin-bottom: 5px; color: #333;">Message</label>
-                            <textarea name="message" required rows="5" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; resize: vertical; box-sizing: border-box;"></textarea>
-                        </div>
-                        
-                        <button type="submit" style="background-color: #25D366; color: white; padding: 12px 24px; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; width: 100%;">Send Message</button>
-                    </form>
-                </div>
+  <!-- Full-width hero -->
+  <section class="hero" role="banner" aria-label="Hero">
+    <picture>
+      <!-- Prefer modern WebP where supported; fall back to JPEG files in repo -->
+      <source srcset="1777806360940.jpg" type="image/jpeg">
+      <img src="1777806360940.jpg" alt="Architectural photography sample" class="hero-image" loading="eager">
+    </picture>
+    <div class="hero-content">
+      <h1>Capturing Heritage & Design</h1>
+      <p>Professional architectural and interior photography — licensing, prints and commissioned projects.</p>
+      <div class="hero-ctas">
+        <a class="btn primary" href="#portfolio">Explore Portfolio</a>
+        <button class="btn" id="orderBtn">Order / Pricing</button>
+      </div>
     </div>
-</div>
-</section>
-<div style="text-align: center; margin: 20px 0 40px 0;">
-    <a href="https://skrill.me/rq/Moazzam%20Masood/50/USD?key=CvuO-Giq6O7V4c6XYuPEFQcnXFZ" target="_blank" style="background-color: #25D366; color: white; padding: 14px 28px; text-decoration: none; border-radius: 6px; font-weight: bold;">💳 Pay Safely with Debit/Credit Card</a>
-</div>
+  </section>
 
-<div class="gallery">
-    <img src="Badshahi Mosque (1).jpg" alt="Badshahi Mosque 1">
-    <img src="Badshahi Mosque (2).jpg" alt="Badshahi Mosque 2">
-    <img src="Badshahi Mosque (3).jpg" alt="Badshahi Mosque 3">
-    <img src="SANY0047.JPG" alt="SANY0047">
-    <img src="SANY0032.JPG" alt="SANY0032">
-    <img src="SANY0031.JPG" alt="SANY0031">
-    <img src="SANY0026.JPG" alt="SANY0026">
-    <img src="Gemini_Generated_Image_clwdc9clwdc9clwd.png" alt="Generated artwork">
-    <img src="fotor_1763917830889.jpg" alt="fotor 1">
-    <img src="fotor_1763917857091.jpg" alt="fotor 2">
-    <img src="fotor_1763917873867.jpg" alt="fotor 3">
-    <img src="1777806360940.jpg" alt="photo 1777806360940">
-    <img src="1781930786712.jpg" alt="photo 1781930786712">
-    <img src="1781930786766.jpg" alt="photo 1781930786766">
-    <img src="⚖️ 3. Ethical & Legal Considerations (2).jpg" alt="Ethical & Legal Considerations">
-</div>
+  <!-- Services / Pricing Cards -->
+  <section id="services" class="section">
+    <div class="inner">
+      <h2>Services</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Licensing</h3>
+          <p>Commercial and editorial licensing with clear usage terms.</p>
+          <p class="price">From <strong>$50</strong></p>
+          <a class="btn small" href="#contact-section">Enquire</a>
+        </article>
+        <article class="card">
+          <h3>Prints</h3>
+          <p>Archival giclée prints, framed or unframed.</p>
+          <p class="price">From <strong>$80</strong></p>
+          <a class="btn small" href="#contact-section">Order</a>
+        </article>
+        <article class="card">
+          <h3>Commissions</h3>
+          <p>On-location shoots tailored to your project and schedule.</p>
+          <p class="price">Custom pricing</p>
+          <a class="btn small" href="#contact-section">Request Quote</a>
+        </article>
+      </div>
+    </div>
+  </section>
 
-<footer>
-    <p>&copy; 2026 Classic Canvas Studio | Moazzam Masood Choudri</p>
-</footer>
+  <!-- Portfolio with categories & filtering -->
+  <section id="portfolio" class="section">
+    <div class="inner">
+      <h2>Portfolio</h2>
+      <div class="filters" role="tablist" aria-label="Portfolio categories">
+        <button class="filter active" data-filter="*">All</button>
+        <button class="filter" data-filter="architecture">Architecture</button>
+        <button class="filter" data-filter="interiors">Interiors</button>
+        <button class="filter" data-filter="heritage">Heritage</button>
+      </div>
 
+      <div class="grid" id="portfolioGrid">
+        <!-- Use images already present in the repo. Add data-category for filtering. -->
+        <figure class="grid-item" data-category="heritage">
+          <img src="Badshahi Mosque (1).jpg" alt="Badshahi Mosque" loading="lazy" width="1200" height="800">
+        </figure>
+        <figure class="grid-item" data-category="heritage">
+          <img src="Badshahi Mosque (2).jpg" alt="Badshahi Mosque 2" loading="lazy" width="1200" height="800">
+        </figure>
+        <figure class="grid-item" data-category="architecture">
+          <img src="SANY0031.JPG" alt="Architecture sample" loading="lazy" width="1200" height="800">
+        </figure>
+        <figure class="grid-item" data-category="architecture">
+          <img src="SANY0032.JPG" alt="Architecture sample 2" loading="lazy" width="1200" height="800">
+        </figure>
+        <figure class="grid-item" data-category="interiors">
+          <img src="Gemini_Generated_Image_clwdc9clwdc9clwd.png" alt="Interior art" loading="lazy" width="1200" height="800">
+        </figure>
+        <figure class="grid-item" data-category="interiors">
+          <img src="fotor_1763917830889.jpg" alt="Interior sample" loading="lazy" width="1200" height="800">
+        </figure>
+        <!-- Add remaining images as grid items -->
+        <figure class="grid-item" data-category="architecture"><img src="SANY0047.JPG" alt="Sample" loading="lazy" width="1200" height="800"></figure>
+        <figure class="grid-item" data-category="heritage"><img src="1777806360940.jpg" alt="Heritage sample" loading="lazy" width="1200" height="800"></figure>
+        <figure class="grid-item" data-category="architecture"><img src="1781930786712.jpg" alt="Sample" loading="lazy" width="1200" height="800"></figure>
+        <figure class="grid-item" data-category="interiors"><img src="1781930786766.jpg" alt="Sample" loading="lazy" width="1200" height="800"></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox modal -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Close">×</button>
+    <img class="lightbox-img" alt="" src="">
+    <button class="lightbox-prev" aria-label="Previous">‹</button>
+    <button class="lightbox-next" aria-label="Next">›</button>
+  </div>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section">
+    <div class="inner">
+      <h2>Testimonials</h2>
+      <div class="testimonials">
+        <blockquote>
+          <p>"Excellent attention to detail and beautiful compositions — highly recommended for heritage projects."</p>
+          <cite>— A. Khan, Curator</cite>
+        </blockquote>
+        <blockquote>
+          <p>"Delivered on time and the prints are superb quality."</p>
+          <cite>— S. Ahmed, Interior Designer</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ with schema.org markup placed below -->
+  <section id="faq" class="section">
+    <div class="inner">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details>
+          <summary>How do I license an image?</summary>
+          <p>Contact us with the image reference and intended use. We'll provide a quote and usage terms.</p>
+        </details>
+        <details>
+          <summary>What payment methods do you accept?</summary>
+          <p>We accept Visa, Mastercard, Google Pay (where available via Stripe), and Bank Transfer.</p>
+        </details>
+        <details>
+          <summary>Do you ship prints internationally?</summary>
+          <p>Yes — shipping options and costs depend on destination. Please enquire for a quote.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / simple checkout modal trigger -->
+  <section id="contact-section" class="section contact">
+    <div class="inner">
+      <h2>Contact & Orders</h2>
+      <div class="contact-grid">
+        <div>
+          <p><strong>Email:</strong> <a href="mailto:choudri52@gmail.com">choudri52@gmail.com</a></p>
+          <p><strong>Location:</strong> Lahore, Pakistan</p>
+          <p class="payment-note">Payment methods depend on the service and your country. Please contact us before placing an order.</p>
+        </div>
+
+        <div>
+          <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY_HERE">
+            <label>Name <input type="text" name="name" required></label>
+            <label>Email <input type="email" name="email" required></label>
+            <label>Message <textarea name="message" rows="4" required></textarea></label>
+            <button class="btn" type="submit">Send Message</button>
+          </form>
+
+          <div style="margin-top:18px;">
+            <button class="btn" id="checkoutBtn">Proceed to Payment (Test)</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Checkout modal (Stripe Payment Request + Bank Transfer fallback) -->
+  <aside id="checkoutModal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">×</button>
+      <h3>Checkout (Test)</h3>
+      <p class="small muted">Payment methods depend on the service and your country. Please contact us before placing an order.</p>
+
+      <!-- Payment Request Button will be mounted here by script.js when available -->
+      <div id="paymentRequestButton"></div>
+
+      <div class="divider">Or pay by card</div>
+      <!-- Simple card form (test only) -->
+      <form id="cardForm">
+        <label>Cardholder name <input name="cardholder" required></label>
+        <div id="cardElement"></div>
+        <button class="btn" id="cardPay">Pay $1 (test)</button>
+      </form>
+
+      <div class="divider">Or pay via bank transfer</div>
+      <div class="bank-details">
+        <p>Bank Transfer Instructions (offline):</p>
+        <ul>
+          <li>Account name: Classic Canvas Studio</li>
+          <li>IBAN / Account: Please contact for details</li>
+          <li>Reference: Your name + order</li>
+        </ul>
+      </div>
+    </div>
+  </aside>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <div class="footer-col">
+        <h4>Classic Canvas Studio</h4>
+        <p>Moazzam Masood Choudri — Architectural & interior photography.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick links</h4>
+        <a href="#portfolio">Portfolio</a><br>
+        <a href="#services">Services</a><br>
+        <a href="#contact-section">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <p>Social links placeholder</p>
+      </div>
+    </div>
+    <div class="copyright">&copy; 2026 Classic Canvas Studio</div>
+  </footer>
+
+  <!-- FAQ structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question","name": "How do I license an image?","acceptedAnswer": {"@type": "Answer","text": "Contact us with the image reference and intended use. We'll provide a quote and usage terms."}},
+      {"@type": "Question","name": "What payment methods do you accept?","acceptedAnswer": {"@type": "Answer","text": "We accept Visa, Mastercard, Google Pay (where available via Stripe), and Bank Transfer."}}
+    ]
+  }
+  </script>
+
+  <script src="https://js.stripe.com/v3/"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>

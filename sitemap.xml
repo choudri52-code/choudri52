@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://choudri52-code.github.io/choudri52/</loc>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://choudri52-code.github.io/choudri52/index.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://choudri52-code.github.io/choudri52/products.html</loc>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://choudri52-code.github.io/choudri52/contact.html</loc>
+    <priority>0.64</priority>
+  </url>
+</urlset>

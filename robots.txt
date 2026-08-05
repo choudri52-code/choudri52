@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://choudri52-code.github.io/choudri52/sitemap.xml
