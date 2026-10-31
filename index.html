@@ -302,4 +302,34 @@
 
   <script src="https://js.stripe.com/v3/"></script>
   <script src="script.js" defer></script>
+<script>
+  // Cover Banner Auto Change Script (Har 2 din baad change hoga)
+  document.addEventListener("DOMContentLoaded", function() {
+    
+    // Apni images ke paths yahan list karo
+    const heroImages = [
+      'images/hero-1.jpg',
+      'images/hero-2.jpg',
+      'images/hero-3.jpg',
+      'images/hero-4.jpg'
+    ];
 
+    const heroElement = document.getElementById('hero-banner');
+    
+    // Har 2 din ka waqt milliseconds mein (2 days * 24 hours * 60 mins * 60 secs * 1000 ms)
+    const intervalTime = 2 * 24 * 60 * 60 * 1000; 
+
+    function updateHeroImage() {
+      const currentTime = new Date().getTime();
+      const imageIndex = Math.floor(currentTime / intervalTime) % heroImages.length;
+      
+      if (heroElement && heroImages.length > 0) {
+        heroElement.style.backgroundImage = `url('${heroImages[imageIndex]}')`;
+      }
+    }
+
+    updateHeroImage();
+    setInterval(updateHeroImage, 60 * 1000);
+
+  });
+</script>
